@@ -1,0 +1,9 @@
+Application *-- ActivityRecognizer
+Application *-- Sender
+Application *-- PowerC
+
+Application : run()
+Sender : sendMessage(message)
+ActivityRecognizer : get ActibityType()
+PowerC : on()
+PowerC : off()
